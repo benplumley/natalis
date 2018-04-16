@@ -23,6 +23,7 @@
 \usepackage{pdflscape}
 \usepackage[protrusion=true,expansion=true]{microtype} % Better typography
 \usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage{import}
 
 \newcommand{\plogo}{\fbox{$\mathcal{PL}$}} % Generic dummy publisher logo
 
@@ -45,32 +46,32 @@ Darien Opperman}
 % \maketitle
 
 \section*{Our Product}
-\input{sections/1-ourProduct}
+\import{sections/}{1-ourProduct.tex}
 
 \section*{Industry Analysis}
-\input{sections/2-industryAnalysis}
+\import{sections/}{2-industryAnalysis.tex}
 
 \section*{Market Validation}
-\input{sections/3-marketValidation}
+\import{sections/}{3-marketValidation.tex}
 
 \section*{Strategy}
-\input{sections/4-strategy}
+\import{sections/}{4-strategy.tex}
 
 \section*{Risk Analysis}
-\input{sections/5-riskAnalysis}
+\import{sections/}{5-riskAnalysis.tex}
 
-\bibliographystyle{bath}
+\bibliographystyle{apalike}
 \bibliography{refs}
 \clearpage
 
 \begin{appendices}
 \section{First Round Interviews}\label{sec:firstRoundInterviews}
-\input{sections/appendices/A-firstRoundInterviews}
+\import{sections/appendices/}{A-firstRoundInterviews.tex}
 
 \section{Second Round Interviews}\label{sec:secondRoundInterviews}
-\input{sections/appendices/B-secondRoundInterviews}
+\import{sections/appendices/}{B-secondRoundInterviews.tex}
 
 \section{Individual Contributions}\label{sec:individualContributions}
-\input{sections/appendices/C-individualContributions}
+\import{sections/appendices/}{C-individualContributions.tex}
 
 \end{document}
