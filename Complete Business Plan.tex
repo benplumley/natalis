@@ -226,7 +226,7 @@ One of the primary selling points of Natalis is convenience. This is in line wit
 
 Moonpig and Funky Pigeon's card prices are generally towards the lower end of the market. This is possibly done to create a more reasonable overall cost, as customers must account for the price of shipping as well. Because these companies are very well established in the market, competing with them directly would be very difficult. By targeting the higher end of the market, which isn't catered to by existing incumbents, we aim to minimise the direct competition we have with these companies. However our relationship with them is still a competitive one, as there remains some level of overlap between our target markets.
 
-We must also consider companies like Etsy and Redbubble. These are e-commerce websites focused on handmade or vintage items and supplies, including high quality handmade cards. These companies have seen significant growth in recent years, with share prices for Etsy tripling in just a year \cite{etsyshares}, indicating a strong trend towards consumers preferring high quality and handmade items. This trend is very positive sign for the potential success of our business. Most of our high quality cards will be bought from one of these websites, through their retailer schemes which allow businesses to buy wholesale from the sellers at a reduced price. Our relationship here isn't with the e-commerce platforms, but instead with the sellers who utilise them.
+We must also consider companies like Etsy and Redbubble. These are e-commerce websites focused on handmade or vintage items and supplies, including high quality handmade cards. These companies have seen significant growth in recent years, with share prices for Etsy tripling in just a year \citep{etsyshares}, indicating a strong trend towards consumers preferring high quality and handmade items. This trend is very positive sign for the potential success of our business. Most of our high quality cards will be bought from one of these websites, through their retailer schemes which allow businesses to buy wholesale from the sellers at a reduced price. Our relationship here isn't with the e-commerce platforms, but instead with the sellers who utilise them.
 
 We hope to build a network of trusted card-makers through these websites to act as our suppliers. In the long term we hope to bypass the e-commerce platforms, and deal directly with the card manufacturers we have established relationships with. However, our relationship with these sellers is interesting, as they act as both suppliers and competitors. There is nothing to stop our customers from buying their cards directly from the sellers via these sites. For customers who are aware they have this option, we hope they will be swayed by the additional convenience our service provides.
 
@@ -289,7 +289,9 @@ Next, we created some new interview questions designed to find out how people fe
 
 The results are positive and suggest that our idea has potential, however we are aware that we may be a victim of the ``Mom Test''. To combat this, we asked questions such as ``would you prefer a system which offers x or y'', rather than ``how do you feel about a system offering x''. This did make it harder to gain results specifically about our business idea, and we are also aware that the results we did find may have been influenced by a social bias, as we had interviewed friends and family.
 
-Therefore, for to gain further and more concise market validation, we have planned to create and launch a prototype website where customers can sign up to our service, and analyse it to discover whether there is in fact a market for our idea. If we were properly launching our business, we would need a partner greetings cards firm to create the cards for us and send them to the customers. However, we want to find out whether people would use our system before investing too much time into it. Therefore we plan to manually buy and send the cards to customers ourselves. This will be the next step we are planning to take.
+To gain further market validation for Natalis, we have planned to create and launch a prototype website where customers can sign up to our service. By analysing the consumer response to the prototype, we can discover the enthusiasm consumers have for Natalis and the potential market size. As the prototype will only have a small amount of core  customers, we will buy individual cards to send to customers on an ad hoc basis. When we scale up the business in the beta testing and launch phases, we will establish partnerships with artists which will allow us to bulk order cards and have them in advance of the customer's order. The launch of the prototype, beta testing launch phases are identified on the roll-out plan in APPENDIX LETTER OLLIE.
+
+At this stage we have created some UI designs for the front-end of the web application which are included in Appendix \ref{sec:UI_design}. We evaluated these designs by interviewing potential customers to determine the perceived ease of use of the website; particular focus was placed on the onboarding process as this is the crucial stage which consumers must find easy if we are to convert them into customers. We have also planned the architecture for the back-end of the system and have begun its implementation.
 
 \subsection*{Competitors}
 Our main competitors fall into three categories. Firstly, there are the card shops or supermarkets selling greeting cards, such as Sainsbury's and CardFactory. We aim to differentiate our business firstly by offering convenience --- customers do not have to go to a shop to buy a card. Secondly, our service is automated, meaning that customers do not have to actively try to remember their contacts' meaningful dates. Customers enter the dates into Natalis and are notified by email when the date is draws near.  Finally, our service will offer high end greetings cards, whereas these shops generally offer cards towards the lower end of the market. Although these companies are successful, these differences should ensure that our company will not be in direct competition with them.
@@ -319,8 +321,9 @@ Table~\ref{table:competitor_analysis} directly compares the features of Natalis 
 \section*{Strategy}
 \subsection*{Legal Status and Business Structure}
 
-As an online retailer, there are laws we must abide by regarding what information we make clear to customers on our website (e.g. terms and conditions, contact details). These will be thoroughly investigated as part of the website design stage to ensure compliance. We must also consider data protection laws, because is inevitable that we will require some personal information from our customers. Payments will be processed using a third party payment provider (see section \ref{financing} for details), so we will not need to store any payment details. However, we will need to store personal information such as names and addresses. This means we must adhere to data protection regulations, as infringement of these would leave us liable to fines from the Information Commissioner's Office (ICO).
+As an online retailer, there are laws we must abide by regarding what information we make clear to customers on our website (e.g. terms and conditions, contact details). These will be thoroughly investigated as part of the website design stage to ensure compliance. We must also consider data protection laws, because is inevitable that we will require some personal information from our customers. Payments will be processed using a third party payment provider (see the financing section for more details), so we will not need to store any payment details. However, we will need to store personal information such as names and addresses. This means we must adhere to data protection regulations, as infringement of these would leave us liable to fines from the Information Commissioner's Office (ICO).
 
+To ensure compliance with data protection regulations, a data protection impact assessment (DPIA) should be carried out to identify potential security concerns with how data is stored. This is mandatory for compliance with the EU General Data Protection Regulation (GDPR), which will be enforced from 25th May 2018. The ICO also recommends tasking one member of the team with responsibility for day-to-day security measures. This includes responding to data protection requests within 40 days, and periodic checks to ensure the organisation's security measures remain appropriate and up to date. An example of a security measure that should be taken is encryption of user data stored in SQL databases. Furthermore, under data protection law, we will notify the ICO of how our organisation handles personal data about our customers.
 To ensure compliance with data protection regulations, a data protection impact assessment (DPIA) should be carried out to identify potential security concerns with how data is stored. This is mandatory for compliance with the EU General Data Protectection Regulation (GDPR), which will be enforced from 25th May 2018. The ICO also recommend tasking one member of the team with responsibility for day-to-day security measures. This includes responding to data protection requests within 40 days, and periodic checks to ensure the organisation's security measures remain appropriate and up to date. An example of a security measure that should be taken is encryption of user data stored in SQL databases. Furthermore, under data protection law, we will need to notify the ICO of how our organisation handles personal data about our customers.
 
 The business structure we have opted to use is a limited liability company (LLC). Unlike a partnership, this means the company is a separate legal entity to the company directors. This reduces our exposure to financial risk, as if the company were to go under (for example, if our data protection measures were insufficient and we were made to pay a fine we couldn't afford), the financial burden lies with the company rather than us as individuals. However, being an LLC comes with significantly more administrative and regulatory demands than a partnership. To become an LLC, we will need to register with the Companies House. As an LLC we will need to keep company records of our transactions and financial agreements, and file our accounts with the Companies House and our company tax return with HMRC. These accounting tasks will be assigned to a member of our team who will be responsible for their completion.
@@ -439,6 +442,43 @@ Research conducted during market validation found that while the greetings card 
 
 
 \clearpage
+
+\section{User Interface Designs}
+\label{sec:UI_design}
+  \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{splash_1.png}
+    \caption{Splash Screen A}
+  \end{figure}
+
+  \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{splash_2.png}
+    \caption{Splash Screen B}
+  \end{figure}
+
+  \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{recipients.png}
+    \caption{Recipients Information Onboarding Screen}
+  \end{figure}
+
+  \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{about_you_1.png}
+    \caption{Customer Information Onboarding Screen}
+  \end{figure}
+
+   \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{about_you_2.png}
+    \caption{Customer Information Onboarding Screen}
+  \end{figure}
+
+  \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{checkout.png}
+    \caption{Checkout Onboarding Screen}
+  \end{figure}
+
+
+
+\clearpage
+
 
 
 \section{Financial Data}
