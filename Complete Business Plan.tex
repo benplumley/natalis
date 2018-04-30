@@ -169,7 +169,7 @@ There are many mass-produced, generic cards available on the high-street and onl
 During product development we drafted a initial list of features which were reduced in order to consolidate our core value proposition and streamline our value chain. By narrowing the focus of value proposition, we target a smaller audience which allow us to deliver a better quality product to our core, early adopting consumers. The resulting set of features of Natalis fulfil all of the consumer needs and values described above to a level which outperforms the competition, yet does not dilute the service we wish to provide.
 
 \subsubsection*{Printed Envelopes}
-We considered printing envelopes for the customer: a franking machine would be used for pre-paid postage at a lower cost to stamps and the envelope would be printed with the recipient's address to save the customer time and provide greater functional value. Despite these claims, our market validation (APPENDIX LETTER) found that consumers found printed envelopes, especially those with pre-paid postage, to seem business-like and impersonal. As our value proposition aims to bring people closer together, we decided that the envelope should be left blank, leaving it to the consumer to write for a more personal experience. By including a postage stamp, the personal feeling of the card is enhanced. The additional cost of the postage stamp, compared to a franked envelope, is passed on to the consumer and does not affect our bottom line.
+We considered printing envelopes for the customer: a franking machine would be used for pre-paid postage at a lower cost to stamps and the envelope would be printed with the recipient's address to save the customer time and provide greater functional value. Despite these claims, our market validation (Appendix \ref{app:envelope_style}) found that consumers found printed envelopes, especially those with pre-paid postage, to seem business-like and impersonal. As our value proposition aims to bring people closer together, we decided that the envelope should be left blank, leaving it to the consumer to write for a more personal experience. By including a postage stamp, the personal feeling of the card is enhanced. The additional cost of the postage stamp, compared to a franked envelope, is passed on to the consumer and does not affect our bottom line.
 
 \subsubsection*{Algorithmic Card Selection}
 We proposed the idea of integrating an algorithm with Natalis that would aim to select the most appropriate greetings card for the customer's recipient. The algorithm would require customers to link their social networking information with Natalis, allowing us to view their contacts' public profile including their interests, personality and social networking behaviour. By comparing the recipients profile with statistical models trained on data collected from other customers, the algorithm would be able to select the perfect greetings card for the recipient. This concept is already common place in other industries such as advertising and retail.
@@ -289,7 +289,21 @@ Next, we created some new interview questions designed to find out how people fe
 
 The results are positive and suggest that our idea has potential, however we are aware that we may be a victim of the ``Mom Test''. To combat this, we asked questions such as ``would you prefer a system which offers x or y'', rather than ``how do you feel about a system offering x''. This did make it harder to gain results specifically about our business idea, and we are also aware that the results we did find may have been influenced by a social bias, as we had interviewed friends and family.
 
-To gain further market validation for Natalis, we have planned to create and launch a prototype website where customers can sign up to our service. By analysing the consumer response to the prototype, we can discover the enthusiasm consumers have for Natalis and the potential market size. As the prototype will only have a small amount of core  customers, we will buy individual cards to send to customers on an ad hoc basis. When we scale up the business in the beta testing and launch phases, we will establish partnerships with artists which will allow us to bulk order cards and have them in advance of the customer's order. The launch of the prototype, beta testing launch phases are identified on the roll-out plan in APPENDIX LETTER OLLIE.
+Another study we ran was to determine the envelope style preferred by consumers. This poll was ran on social media and contained an image of a stamped envelope and one of a franked envelope. It contained the question "Would you prefer to receive a card in a stamped envelope (first image) or a franked envelope (second image)?". And had the following options:
+\begin{enumerate}
+  \item{Prefer Stamped}
+  \item{Prefer Franked}
+  \item{Indifferent}
+\end{enumerate}
+Nobody selected the "Prefer Franked" option. Furthermore, comments on the poll included:
+\begin{enumerate}
+   \item The second one looks a bit businessy
+   \item A franked envelope isn't very card like
+   \item Looks more like a bill than a card
+\end{enumerate}
+These comments reflected the outcome of the poll that people would be deterred by a franked envelope, hence our decision to provide stamped envelopes instead of franked envelopes as described in the value proposition. The results of this poll can be found in Appendix \ref{app:envelope_style}.
+
+To gain further market validation for Natalis, we have planned to create and launch a prototype website where customers can sign up to our service. By analysing the consumer response to the prototype, we can discover the enthusiasm consumers have for Natalis and the potential market size. As the prototype will only have a small amount of core  customers, we will buy individual cards to send to customers on an ad hoc basis. When we scale up the business in the beta testing and launch phases, we will establish partnerships with artists which will allow us to bulk order cards and have them in advance of the customer's order. The launch of the prototype, beta testing launch phases are identified on the roll-out plan in Appendix \ref{app:rollout}.
 
 At this stage we have created some UI designs for the front-end of the web application which are included in Appendix \ref{sec:UI_design}. We evaluated these designs by interviewing potential customers to determine the perceived ease of use of the website; particular focus was placed on the onboarding process as this is the crucial stage which consumers must find easy if we are to convert them into customers. We have also planned the architecture for the back-end of the system and have begun its implementation.
 
@@ -443,6 +457,16 @@ Research conducted during market validation found that while the greetings card 
 
 \clearpage
 
+\section{Envelope Style Interviews}
+\label{app:envelope_style}
+  \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{envelope_style.png}
+    \caption{Results of an interview questioning participants on their envelope preferences}
+  \end{figure}
+
+
+\clearpage
+
 \section{User Interface Designs}
 \label{sec:UI_design}
   \begin{figure}[!htb]
@@ -479,7 +503,14 @@ Research conducted during market validation found that while the greetings card 
 
 \clearpage
 
+\section{Roll-Out Plan}
+\label{app:rollout}
+  \begin{figure}[!htb]
+\includegraphics[width=1.0\linewidth]{rollout.png}
+    \caption{Proposed Roll-Out Plan}
+  \end{figure}
 
+\clearpage
 
 \section{Financial Data}
 \begin{table}[]
